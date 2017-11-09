@@ -32,6 +32,34 @@ body {
   margin-top:30px;
   width:160px;
 }
+#breadcrumbnav {
+  background-color:transparent;
+  box-shadow:none;
+  margin-top:25px;
+}
+.breadcrumb {
+  color:black;
+  font-size:11px;
+}
+.breadcrumb:last-child {
+  color:black;
+  font-style:italic;
+  font-size:11px;
+
+.breadcrumb::before {
+  color:black;
+}
+#button-holder{
+    background-color:#F4EEE9;
+    border-top:thin solid #a1887f;
+    box-shadow:1px 2px 1px 1px #a1887f;
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+}
 .caption div {
     display: block;
     margin-left: auto;
@@ -70,10 +98,29 @@ h3 {
   padding-top:20px;
   padding-bottom:20px;
 }
+.message p {
+  margin-top:400px;
+}
 nav li a {
   text-transform: uppercase;
   font-weight:500;
   font-size:12px;
+}
+#searchbar {
+  float:right;
+}
+#search-text-input{
+    border-top:thin solid  #a1887f;
+    border-right:thin solid #a1887f;
+    border-bottom:0;
+    border-left:thin solid  #a1887f;
+    box-shadow:1px 1px 1px 1px #a1887f;
+    float:left;
+    height:14px;
+    margin:.8em 0 0 .5em;
+    outline:0;
+    padding:.4em 0 .4em .6em;
+    width:183px;
 }
 .top-nav {
   float:right;

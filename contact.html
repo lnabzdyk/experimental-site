@@ -9,30 +9,109 @@
 
    <body class="container brown lighten-5">
 
-    <div class="page-header">
-        <div class="nav-wrapper above">
-          <ul>
-            <li><a class="brown-text left" href="account.html">My Account</a></li>
-            <li><a class="brown-text" href="cart-main.html">Shopping Cart</a></li>
-          </ul>
-        </div>
+     <div class="page-header">
+         <div class="nav-wrapper above">
+           <ul>
+             <li><a class="brown-text left" href="account.html">My Account</a></li>
+             <li><a class="brown-text" href="cart-main.html">Shopping Cart</a></li>
+           </ul>
+         </div>
 
-        <nav>
-          <div class="nav-wrapper brown lighten-3">
-            <a href="index.html" class="brand-logo"><img src="images/staufs-logo.png" alt="stauf's logo"></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a class="black-text" href="index.html">Home</a></li>
-              <li><a class="black-text" href="coffee-main.html">Coffee</a></li>
-              <li><a class="black-text" href="tea-main.html">Tea</a></li>
-              <li><a class="black-text" href="equipment-main.html">Equipment</a></li>
-              <li><a class="black-text" href="locations-main.html">Locations</a></li>
-              <li><a class="black-text" href="about.html">About</a></li>
-            </ul>
-          </div>
-        </nav>
+         <nav>
+           <div class="nav-wrapper brown lighten-3">
+             <a href="index.html" class="brand-logo"><img src="images/staufs-logo.png" alt="stauf's logo"></a>
+             <ul id="nav-mobile" class="right hide-on-med-and-down">
+               <li><a class="black-text" href="index.html">Home</a></li>
+               <li><a class="dropdown-button" href="coffee-main.html" data-activates="dropdown1">Coffee<i class="material-icons right">arrow_drop_down</i></a></li>
+                 <ul id="dropdown1" class="dropdown-content">
+                   <li><a href="placeholder.html">Home</a></li>
+                   <li><a href="placeholder.html">Organic</a></li>
+                   <li><a href="placeholder.html">Dark Roast</a></li>
+                   <li><a href="placeholder.html">Signature</a></li>
+                   <li><a href="single-origin.html">Single Origin</a></li>
+                   <li><a href="placeholder.html">Decar</a></li>
+                   <li><a href="placeholder.html">Flavored</a></li>
+                   <li><a href="placeholder.html">Accessories</a></li>
+                 </ul>
+                 <li><a class="dropdown-button" href="coffee-main.html" data-activates="dropdown2">Tea<i class="material-icons right">arrow_drop_down</i></a></li>
+                   <ul id="dropdown2" class="dropdown-content">
+                     <li><a href="placeholder.html">Home</a></li>
+                     <li><a href="placeholder.html">Black</a></li>
+                     <li><a href="placeholder.html">Green</a></li>
+                     <li><a href="placeholder.html">White</a></li>
+                     <li><a href="placeholder.html">Oolong</a></li>
+                     <li><a href="tea-blends.html">Blends</a></li>
+                     <li><a href="placeholder.html">Tisans &amp; Herbs </a></li>
+                     <li><a href="placeholder.html">Accessories </a></li>
+                   </ul>
+                   <li><a class="dropdown-button" href="coffee-main.html" data-activates="dropdown3">Equipment<i class="material-icons right">arrow_drop_down</i></a></li>
+                     <ul id="dropdown3" class="dropdown-content">
+                       <li><a href="placeholder.html">Home</a></li>
+                       <li><a href="placeholder.html">Pour Over</a></li>
+                       <li><a href="placeholder.html">Stove Top</a></li>
+                       <li><a href="placeholder.html">Auto Drip</a></li>
+                       <li><a href="placeholder.html">Espresso</a></li>
+                       <li><a href="placeholder.html">Cemex</a></li>
+                       <li><a href="placeholder.html">French Press</a></li>
+                       <li><a href="placeholder.html">Grinders</a></li>
+                       <li><a href="placeholder.html">Accessories</a></li>
+                     </ul>
+                     <li><a class="dropdown-button" href="coffee-main.html" data-activates="dropdown4">Locations<i class="material-icons right">arrow_drop_down</i></a></li>
+                       <ul id="dropdown4" class="dropdown-content">
+                         <li><a href="placeholder.html">Grandview</a></li>
+                         <li><a href="placeholder.html">North Market</a></li>
+                         <li><a href="placeholder.html">German Village</a></li>
+                       </ul>
+
+               <li><a class="black-text" href="about.html">About
+
+               </a></li>
+             </ul>
+           </div>
+         </nav>
+       </div>
+
+      <div id="searchbar">
+        <input type='text' placeholder='Search...' id='search-text-input' />
+        <div id='button-holder'>
+             <i class="material-icons">search</i>
+        </div>
       </div>
 
-      <p>content coming soon!</p>
+<div class="message">
+    <p>Leave us a message! We will respond within 3 business days.</p>
+</div>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+           <form class="col 12">
+             <div class="row">
+               <div class="input-field col s12">
+                 <textarea id="textarea1" class="materialize-textarea"></textarea>
+                 <label for="textarea1">Message</label>
+               </div>
+             </div>
+           </form>
+         </div>
+          </form>
+        </div>
+        <button type="button" name="button">Submit</button>
+
 
 
       <footer class="brown-text">
