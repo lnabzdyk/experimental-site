@@ -1,28 +1,126 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,600i,700,800');
-
+.above .left {
+  border-right:solid 1px;
+  padding-right:15px;
+}
+.above li {
+    display: inline;
+    width: 100px;
+    padding-left:5px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.above ul {
+  margin-left:965px;
+}
 body {
-font-family: 'Montserrat', sans-serif;
-line-height:28px;
-font-size:14px;
+  font-family: 'Montserrat', sans-serif;
+  line-height:28px;
+  font-size:14px;
+}
+.brand-logo {
+  position:relative; top:-40px;
+  margin-left:10px;
 }
 .brand-logo img {
   width:100px;
 }
-.carousel h4 {
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:30px;
+  width:160px;
+}
+#breadcrumbnav {
+  background-color:transparent;
+  box-shadow:none;
+  margin-top:25px;
+}
+.breadcrumb {
+  color:black;
+  font-size:11px;
+}
+.breadcrumb:last-child {
+  color:black;
+  font-style:italic;
+  font-size:11px;
+}
+.breadcrumb::before {
+  color:black;
+}
+#button-holder{
+    background-color:#F4EEE9;
+    border-top:thin solid #a1887f;
+    box-shadow:1px 2px 1px 1px #a1887f;
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+}
+.caption div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+}
+.caption h4 {
   text-transform: uppercase;
-  font-size:28px;
-  color:white;
-  margin-top:75px;
 }
-.carousel p {
-  width:30%;
-  margin-left:400px;
-  font-weight:300;
+.dropdown-button {
+  color:black;
+}
+.dropdown-button i {
+  margin-left:5px;
+  margin-top:0px;
+}
+.dropdown-content li a{
+  color:#a1887f;
+  font-size: 10px;
+}
+footer {
   font-size:10px;
+  margin-top:100px;
 }
-.item-1 {
-background-image:url(../images/staufs-cover.png);
-background-repeat:no-repeat;
+footer li {
+  display: inline;
+  width: 100px;
+  padding-left:5px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+h3 {
+  font-size:18px;
+  text-transform: uppercase;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.message p {
+  margin-top:400px;
+}
+nav li a {
+  text-transform: uppercase;
+  font-weight:500;
+  font-size:12px;
+}
+#searchbar {
+  float:right;
+}
+#search-text-input{
+    border-top:thin solid  #a1887f;
+    border-right:thin solid #a1887f;
+    border-bottom:0;
+    border-left:thin solid  #a1887f;
+    box-shadow:1px 1px 1px 1px #a1887f;
+    float:left;
+    height:14px;
+    margin:.8em 0 0 .5em;
+    outline:0;
+    padding:.4em 0 .4em .6em;
+    width:183px;
 }
 .top-nav {
   float:right;

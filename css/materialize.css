@@ -8178,14 +8178,14 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #8B572A;
 }
 
 .carousel {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 500px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
